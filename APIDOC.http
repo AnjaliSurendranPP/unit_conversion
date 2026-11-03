@@ -1,0 +1,13 @@
+###
+POST http://127.0.0.1:8000/converter/
+Content-Type: application/json
+
+{
+        "value":5,
+        "from_unit":"km",
+        "to_unit":"m"
+}
+
+###
+GET http://127.0.0.1:8000/converter/
+Accept: application/json
